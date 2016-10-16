@@ -41,7 +41,7 @@ you.eat(food);
 you.dance(yourCrush);
 ```
 
-###Class level - Fields
+### Class level - Fields
 You might know how to speak normally, but still be pretty nervous and do something stupid e.g. get drunk. Of course, you really care that things work out well with your crush, so you won't drink too much on purpose. But what if I told you that you have no control over your alcohol digestion? Any of your stupid friends around can go by and make you drunk. Seems insane?
 
 Well, this is what happens to objects with `public` fields. By making them `public`, everyone can read or, even worse, change them!
@@ -67,7 +67,7 @@ class You {
 }
 ```
 
-###Class level - Accessors
+### Class level - Accessors
 Now imagine you have some control - people have to ask you to drink, but you still agree every time they ask. Have the situation got any better? You might ask "why do I agree every time?".
 
 Well, auto-generated getters and setters never say no! Of course, there are *some* questions you always answer positively e.g. someone offering you a free pizza and there are *some* cases when auto-generated getter or setter is what your object needs. But in most cases, it's doing more harm than good.
@@ -98,7 +98,7 @@ class You {
 }
 ```
 
-###Class level - Solution
+### Class level - Solution
 Okay, getting drunk is not the right way to impress your crush. You want to show what's best about you without any stupid actions. How do you keep things under control?
 
 As written above: methods are your objects' way of speaking and acting.
@@ -129,7 +129,7 @@ class You {
 }
 ```
 
-###Component level - Separation
+### Component level - Separation
 You didn't speak like an idiot and you didn't get drunk. Everything goes well until you see your ex running at you and screaming. You look around and wonder how this happened? Your ex is not supposed to be at this party. Who let him/her in?! And then you see it.. There's no door! Everyone could come in and mess with your plans! WTF?!
 
 Making all classess public and leaving no indication, which classes should and which shouldn't be used outside of the component means anyone can use any class, in any way he likes. An object like your ex can come in and mess around. This is the missing door of your component.
@@ -142,7 +142,7 @@ Making all classess public and leaving no indication, which classes should and w
 
 ![](/content/images/2016/10/better.png)
 
-###Component level - Abstraction
+### Component level - Abstraction
 Your ex didn't get into the party, but still knew that you went there and you're into someone else already. This made him/her so depressed that he/she committed suicide. Now, this is crazy! How did your ex know this stuff in the first place? Well, this is what happens when you give your ex your phone, when you meant to give just the phone number.
 
 Making the public API of your component consist of concrete classes can be equivalent to giving your ex the phone instead of the number. Your client objects depend on your internals and can, or worse, have to adapt to changes inside your component.
@@ -153,7 +153,7 @@ Making the public API of your component consist of concrete classes can be equiv
 
 ![](/content/images/2016/10/best.png)
 
-###Finale
+### Finale
 You had the talk, you didn't get drunk and your ex didn't cause you any trouble. Your crush is another step closer to fall in love with you! Most importantly, there's no negative tension around - the relationship between you, your crush and your ex remained healthy.
 
 Do you know how do we call a healthy relationship in programming? **LOOSE COUPLING!**

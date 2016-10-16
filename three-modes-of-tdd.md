@@ -40,7 +40,7 @@ class Square {
 
 Bam, done! Things work so well when the problem is simple enough (that's why I chose this one). But let's assume that you don't know how to code it up right away. What then?
 
-###Fake It, 'Til You Make It
+### Fake It, 'Til You Make It
 Given you know the problem and solutions, but the way you code them up is not immediately obvious to you, you can use a trick called *Fake it, 'til you make it*. Given the same test as above, you could start your implementation like this:
 
 ```java
@@ -87,7 +87,7 @@ class Square {
 
 Great! But what if you don't even know the solution?! How do you make progress in this case?
 
-###Triangulation
+### Triangulation
 This is heavy magic. At this point, TDD opponents on DZone are no longer reading, they're already writing angry comments about how stupid this article is. But we don't stop. We want power, more power! To unleash the power of triangulation, we have to get back to the roots. What's the most dumb example of a square? A square with edge of 0![^2]
 
 ```java
@@ -166,7 +166,7 @@ class Square {
 
 You got it! Step by step. From nothing to `0.0`. From `0.0` to `edge`. From `edge` to `edge * edge`. It wasn't that hard. Congratulations!
 
-###Summary
+### Summary
 In reality you won't be solving such simple problems, but the principles remain. If you know the solution and it's implementation right away, just code it up - it's the obvious implementation way. If you know the solution, but coding it up appears complicated - *fake it 'til you make it*. Also, go for *fake it 'til you make it*, when things unexpectedly mess up (aka your tests fail). This often happens when you have algorithms with indexes or lot's of nested calculations. It's no shame to slow down and do it step by step instead of trying MAX_INT combinations of indexes or brackets. Finally, if you don't know the solution and you're exploring, try triangulation. Go step by step, from the simplest cases to the most complicated ones. From very specific, stupid implementation, to the one that solves all your requirements.
 
 [^1]: And [The Skull Throne](https://www.amazon.com/Skull-Throne-Book-Demon-Cycle/dp/0345531493/), but I'll save this one for another post.
