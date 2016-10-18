@@ -1,4 +1,5 @@
 ---
+id: ghost-31
 title: 5 Extremely Stupid Mistakes I Recently Made
 author: Grzegorz Ziemonski
 summary: [Michael Tharrington](https://dzone.com/users/2687707/michael-tharrington.html) from DZone crew recently suggested to me that I could write about mistakes that I make. Well, the moment couldn't be better - my team just went live with a critical application and everything that could go wrong.. went wrong! Of course, none of the solutions was written solely by me - some of it was created when we were pair programming and all of it went through rigorous code review process, which makes it even more ridiculous.

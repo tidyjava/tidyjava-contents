@@ -1,4 +1,5 @@
 ---
+id: ghost-32
 title: Three Modes of TDD
 author: Grzegorz Ziemonski
 summary: Among the discomfort of being sick over the weekend, I also had the *pleasure* to do some reading - Kent Beck's [TDD by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) in this case[^1]. This inspired me to write something about TDD - a topic that polarizes people a lot. Reading different opinions about TDD, I found that most TDD opponents don't know what it really means and haven't even partially mastered it. Here's my first attempt to stop this trend a little bit.
