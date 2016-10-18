@@ -134,13 +134,13 @@ You didn't speak like an idiot and you didn't get drunk. Everything goes well un
 
 Making all classess public and leaving no indication, which classes should and which shouldn't be used outside of the component means anyone can use any class, in any way he likes. An object like your ex can come in and mess around. This is the missing door of your component.
 
-![](/content/images/2016/10/wrong.png)
+![](/img/wrong.png)
 
 **Therefore:**
 
 ==Encapsulate your components internals by making it explicit what is your components public API. You can achieve that by marking only selected classes as public or through expressive package structure (or both).==
 
-![](/content/images/2016/10/better.png)
+![](/img/better.png)
 
 ### Component level - Abstraction
 Your ex didn't get into the party, but still knew that you went there and you're into someone else already. This made him/her so depressed that he/she committed suicide. Now, this is crazy! How did your ex know this stuff in the first place? Well, this is what happens when you give your ex your phone, when you meant to give just the phone number.
@@ -151,7 +151,7 @@ Making the public API of your component consist of concrete classes can be equiv
 
 ==Unless you don't care about such dependencies, make the public API of your component consist of interfaces instead of concrete classes.==
 
-![](/content/images/2016/10/best.png)
+![](/img/best.png)
 
 ### Finale
 You had the talk, you didn't get drunk and your ex didn't cause you any trouble. Your crush is another step closer to fall in love with you! Most importantly, there's no negative tension around - the relationship between you, your crush and your ex remained healthy.
