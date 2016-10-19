@@ -15,7 +15,7 @@ In this post, I'm going to show you how to put it in practice by developing a ke
 ### Git Support
 The key feature of the blogging platform is to load the posts from a separate Git repository, so that the bloggers can benefit from version control, code reviews, people's contributions and so on.
 
-![](/content/images/2016/08/start.png)
+![](/img/start.png)
 
 Currently, the posts are kept in the same repository as the platform and are loaded from the classpath using some ugly `PathMatchingResourcePatternResolver`. I want to replace the whole classpath-based solution with Git support. Ability to run the application in "local mode" by specifying local address of a repository would be a plus, but is not a must.
 
@@ -36,7 +36,7 @@ The idea to refactor `MarkdownPost` came from 2 sources:
 * comments under previous posts, both on my personal blog and DZone - that constructor and commonmark related logic hurt eyes
 * my thoughts about the concept of a post in the project - it's not any high-level business entity. This platform is a Read application, which is even less than CRUD. I take a file, read whatever's relevant for a post and pass it further. Therefore, a post is a holder of whatever's relevant!
 
-![](/content/images/2016/08/refactor.png)
+![](/img/refactor.png)
 
 This leads to the following steps:
 
@@ -115,7 +115,7 @@ You can notice that I added a `TODO` to test a case when there's missing metadat
 
 ### Cloning a Git repository
 
-![](/content/images/2016/08/clone.png)
+![](/img/clone.png)
 
 I've seen somewhere that there's a Java library called JGit, developed by some smart people from big companies. I'll add it to the project and try to clone a repo using it.
 
@@ -213,4 +213,4 @@ public class ExceptionUtils {
 }
 ```
 
-*The post seemed too long so I split it in two. Second part is available [here](http://tidyjava.com/solving-small-problems-2).
+*The post seemed too long so I split it in two. Second part is available [here](http://tidyjava.com/solving-small-problems-2).*
