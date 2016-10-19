@@ -8,7 +8,7 @@ tags:
     - java
     - spring
 ---
-#Story
+# Story
 Bob, one of the greatest cleaners of planet JEarth needs our help with his day-planning application. Currently, it allows him only to clean code and learn. To be able to put resting on the beach on his schedule, he needs to make sure weather outside is good enough. He won't risk looking outside the window, because he might lose precious milliseconds of coding. We will save him by integrating his application with an imaginary REST API prepared by weather expert Eric (actually, Eric is an expert in every domain).
 
 The application is open-source and is organized around use cases. The use case we're interested in is "Plan for today". Based on the state of the codebase it tells Bob if he can learn new things or he has to take care of the code and clean it. Look, here's `PlanForTodayUseCase`:
@@ -174,7 +174,7 @@ Sad fact is: we cannot predict what's the weather now, so we can't assert the fi
 
 Having tested the gateway so thoroughly we will be able to safely mock it out later without worrying that things won't work together.
 
-#Using the gateway
+# Using the gateway
 Now we're ready to make Bob happy by using our gateway in the use case logic. As pointed out before, we have to make sure that code is clean and temperature is over 20 degrees. Here it comes:
 
 ```java
@@ -247,7 +247,7 @@ public class PlanForTodayUseCaseIntegrationTest {
 
 We used `@MockBean` annotation to mock the dependency on `WeatherGateway`, which we tested left and right already. This makes the test easier to write and manage.
 
-#Summary
+# Summary
 Spring Boot provides everything you need to implement and test simple REST integrations. We start off the implementation with a shielding interface, that specifies what we really need from the external service. Then we implement the interface using Spring's `RestTemplate`. We test the implementation using both unit and integration test to make sure that we're hitting the right endpoint, returning the right value and the communication is successful. Thanks to wonderful clean-up in 1.4, all we need to set up an integration test is two annotations - `@RunWith(SpringRunner.class)` and `@SpringBootTest`. Finally, we mock out the gateway in the use case classes using `@MockBean`, so that our functional tests are not impacted by any external party. Last but not least: remember to test your classes well or Bob will get mad! :)
 
 All code used in the examples is available here:
