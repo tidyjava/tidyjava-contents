@@ -3,7 +3,7 @@ id: ghost-24
 title: Agile Continuity
 author: Grzegorz Ziemonski
 summary: I've already expressed [my concerns about meetings](http://tidyjava.com/very-important-meetings/), but I think there's more to say in terms of agile processes. Putting these things into practice is essential to being a good software developer. I've worked in Scrum and Scrum-like environments for a while and I have a feeling that we lack something - **continuity**.
-date: 2016-07-08
+date: 2016-08-07
 tags:
     - agile
 ---
