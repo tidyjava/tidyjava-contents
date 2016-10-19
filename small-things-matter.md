@@ -4,6 +4,9 @@ title: Small Things Matter
 author: Grzegorz Ziemonski
 summary: Hey boy, are you doing microservices? Sure you are. Everybody does. Have you moved to 4-tier architecture already? Are your applications cloud-native? Have you containero-dockerized yourself? All of it?
 date: 2016-09-03
+tags:
+    - java
+    - architecture
 ---
 Then, I bet you also have strong DevOps culture. Of course, none of these could be achieved without Management 3000.0 and Modern Agile. Oh boy, you're so awesome! But wait, wait. We're not done yet. You're using Marathon or Kubernetes, right? And Big Data, you have to do Big Data! What about your APIs? Are they RESTful enough? What about automation? You have everything autmated, right? Aaaagh, and you have to go functional! Or Reactive! Or both! REFUNCTIONAL! And don't forget about Internet of Things, ok? I'm still waiting for the glass that will display to me how full it is over the internet! You know, the world is moving so fast. Software is eating up the world! New technologies are popping up every day! We need to constantly learn new things to keep up to date! It's so hard to be a developer these days.
 
