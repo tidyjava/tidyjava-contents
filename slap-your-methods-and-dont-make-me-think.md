@@ -4,6 +4,8 @@ title: SLAP Your Methods and Don't Make Me Think!
 author: Grzegorz Ziemonski
 summary: In my [recent post](http://tidyjava.com/blogging-platform-in-java-3/) about creating a blogging platform I posted a piece of code like this:
 date: 2016-08-12
+tags:
+    - java
 ---
 ```java
     public MarkdownPost(Resource resource) {
