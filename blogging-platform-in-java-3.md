@@ -1,5 +1,5 @@
 ---
-id: ghost-31
+id: ghost-23
 title: Initial Implementation - Blogging Platform #3
 author: Grzegorz Ziemonski
 summary: Here it is, third part of the Blogging Platform series. If you don't know what I'm talking about, make sure to check out [previous parts](http://tidyjava.com/tag/blogging-platform/). For this part I finally wrote some meaningful code, so let's jump straight into it.
