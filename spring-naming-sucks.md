@@ -40,9 +40,9 @@ Wooow. Seems like every bean is a "Spring-managed component". We just have to li
 
 Last thing I want to hit in this post is `@ConfigurationProperties`. This one seems like a pretty good name. It's related to *configuration* (the intuitive one) and it's related to properties. But.. how am I supposed to name classes using this annotation?! `SomethingConfiguration` suggests that's a `@Configuration` class. `SomethingProperties` might be confusing when used on the business side. `SomethingConfigurationProperties` is a monster! Another thing is, why do I have to add stereotype annotations to these classes? Is there anyone who have ever used `@ConfigurationProperties` without a stereotype annotation?
 
-##@Component
-##@ConfigurationProperties
-##@WhySpringWhy
+## @Component
+## @ConfigurationProperties
+## @WhySpringWhy
 
 ---
 To not leave you without any solution, I see two ways to go:
