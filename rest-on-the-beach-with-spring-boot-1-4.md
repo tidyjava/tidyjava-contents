@@ -8,6 +8,8 @@ tags:
     - java
     - spring
 ---
+I recently had a chance to play with Spring Boot 1.4 at work. Part of the application I was implementing involved communicating with REST services. I wrote some simple code and I liked it so much, that I decided to share it with you. Since I don't want to bore you with lot's of code and little comment, I made up a story to make things more plausible.
+
 # Story
 Bob, one of the greatest cleaners of planet JEarth needs our help with his day-planning application. Currently, it allows him only to clean code and learn. To be able to put resting on the beach on his schedule, he needs to make sure weather outside is good enough. He won't risk looking outside the window, because he might lose precious milliseconds of coding. We will save him by integrating his application with an imaginary REST API prepared by weather expert Eric (actually, Eric is an expert in every domain).
 

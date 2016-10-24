@@ -7,6 +7,8 @@ date: 2016-08-12
 tags:
     - java
 ---
+In my [recent post](http://tidyjava.com/blogging-platform-in-java-3/) about creating a blogging platform I posted a piece of code like this:
+
 ```java
     public MarkdownPost(Resource resource) {
         try {

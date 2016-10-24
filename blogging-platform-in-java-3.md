@@ -8,6 +8,8 @@ tags:
     - java
     - blogging-platform
 ---
+Here it is, third part of the Blogging Platform series. If you don't know what I'm talking about, make sure to check out [previous parts](http://tidyjava.com/tag/blogging-platform/). For this part I finally wrote some meaningful code, so let's jump straight into it.
+
 ### Tests
 I started by writing some tests, but inspired by [James Coplien](http://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf) and [Simon Brown](https://www.youtube.com/watch?v=SV5RVzKZueA) I decided to give up on TDD and heavy unit testing in this project.[^1] Instead, I wrote two coarser grain tests to excersise my web endpoints.
 

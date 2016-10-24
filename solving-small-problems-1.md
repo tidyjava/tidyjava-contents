@@ -10,6 +10,8 @@ tags:
 ---
 *Although I tried to make this post comprehensible by itself, you might want to read [previous parts](http://tidyjava.com/tag/blogging-platform/) before this one.*
 
+One of the keys to being a good programmer is working in an organized way. You pick a small, easy problem, solve it and move to the next small, easy one. One after another, step by step, something greater emerges. Our brains have limited capacity and processing speed. We can't do everything at once, we can't solve multiple complicated problems at the same time. Knowing this we can conciously limit our current "context" to something simple enough to chew at once.
+
 In this post, I'm going to show you how to put it in practice by developing a key feature of my [blogging platform](http://tidyjava.com/tag/blogging-platform/) like this. Get ready for a ride!
 
 ### Git Support

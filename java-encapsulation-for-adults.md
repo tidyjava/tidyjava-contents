@@ -7,6 +7,8 @@ date: 2016-10-08
 tags:
     - java
 ---
+For proper understanding of this article I'd like you to close your eyes and imagine something. But since having closed eyes and reading at the same time is not an option, we'll skip the "close your eyes" part and jump straight into "imagine".
+
 ### Intro
 
 Imagine you're going to a big dance party with your crush. You're really into him/her, so you don't want to mess up. You want to be sexy, charming and funny. Now, **WHAT COULD POSSIBLY GO WRONG?**

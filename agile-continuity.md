@@ -7,6 +7,8 @@ date: 2016-08-07
 tags:
     - agile
 ---
+I've already expressed [my concerns about meetings](http://tidyjava.com/very-important-meetings/), but I think there's more to say in terms of agile processes. Putting these things into practice is essential to being a good software developer. I've worked in Scrum and Scrum-like environments for a while and I have a feeling that we lack something - **continuity**.
+
 ### Continous Communication
 
 Not just ceremonies and other meetings. In my ideal world, these shouldn't be *needed* at all. Super-quick sync, no more than that. Anything that didn't pop up less than half an hour before the meeting, you could have communicated already. You could have discussed it with someone. With enough luck, you could have solved the issue by now.

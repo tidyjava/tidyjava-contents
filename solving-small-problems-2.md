@@ -8,6 +8,8 @@ tags:
     - java
     - blogging-platform
 ---
+*This post is a continuation of the previous one. [Click here](http://tidyjava.com/solving-small-problems) to read it, if you haven't done so yet.*
+
 ### Reading Cloned Files
 
 This should be pretty straightforward. It should be enough to use JDK `File` API and read from the `.contents`. Let's do this.

@@ -5,6 +5,8 @@ author: Grzegorz Ziemonski
 summary: [Michael Tharrington](https://dzone.com/users/2687707/michael-tharrington.html) from DZone crew recently suggested to me that I could write about mistakes that I make. Well, the moment couldn't be better - my team just went live with a critical application and everything that could go wrong.. went wrong! Of course, none of the solutions was written solely by me - some of it was created when we were pair programming and all of it went through rigorous code review process, which makes it even more ridiculous.
 date: 2016-09-24
 ---
+[Michael Tharrington](https://dzone.com/users/2687707/michael-tharrington.html) from DZone crew recently suggested to me that I could write about mistakes that I make. Well, the moment couldn't be better - my team just went live with a critical application and everything that could go wrong.. went wrong! Of course, none of the solutions was written solely by me - some of it was created when we were pair programming and all of it went through rigorous code review process, which makes it even more ridiculous.
+
 ### Background
 We were developing a simple webapp exposing REST API that communicates with an external provider and persists some of the results, so that we don't do too many calls, because we have to pay for each of them. The application is mostly relying on Spring Boot web and data capabilities. Two instances of the application are deployed behind a load balancer on company's servers.
 
