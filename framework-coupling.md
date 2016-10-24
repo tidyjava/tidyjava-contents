@@ -2,7 +2,7 @@
 id: ghost-5
 title: Framework Coupling
 author: Grzegorz Ziemonski
-summary: **Are you using frameworks the right way? Are you using frameworks for business purposes or the other way around? Are your business classes dependent on frameworks? Can I press delete button on your Spring, Guice, Hibernate, JPA dependencies and still be able to test and use your business features? If not, you might have a huge problem - high framework coupling.**
+summary: Are you using frameworks the right way? Are you using frameworks for business purposes or the other way around? Are your business classes dependent on frameworks? Can I press delete button on your Spring, Guice, Hibernate, JPA dependencies and still be able to test and use your business features? If not, you might have a huge problem - high framework coupling.
 date: 2016-03-31
 tags:
     - architecture

@@ -2,7 +2,7 @@
 id: ghost-7
 title: Living Documentation
 author: Grzegorz Ziemonski
-summary: *Tidy guide on how to create a Living Documentation in your (not only) Java projects.*
+summary: Tidy guide on how to create a Living Documentation in your (not only) Java projects.
 date: 2016-04-14
 tags:
     - documentation

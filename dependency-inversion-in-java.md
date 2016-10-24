@@ -2,7 +2,7 @@
 id: ghost-6
 title: Dependency Inversion in Java
 author: Grzegorz Ziemonski
-summary: *Begineer guide to using the power of Dependency Inversion with examples in Java.*
+summary: Begineer guide to using the power of Dependency Inversion with examples in Java.
 date: 2016-04-07
 tags:
     - java
