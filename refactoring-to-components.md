@@ -3,7 +3,7 @@ id: ghost-34
 title: Refactoring to Components
 author: Grzegorz Ziemonski
 summary: Imagine you're assigned to work with an old codebase without a reasonable component structure or any structure at all. A big ball of mud! What now?! How do you get from there to nice, reusable components you'd enjoy working with?
-date: 2016-10-27
+date: 2016-10-26
 tags:
     - java
     - components
@@ -17,7 +17,7 @@ For the purpose of this article, the ball of mud will be my [Blogging Platform](
 ![](/img/before.png)
 
 ### Inferring the Components
-In case there's no structure at all or it does't make any sense, a reasonable first step is to seek implicit structure in the code and make it explicit. Unless the codebase is a single God class, there must be some way to group the classes together, even if the resulting structure is suboptimal. If there is an imperfect, but workable structure already, this step can be skipped.
+In case there's no structure at all or it doesn't make any sense, a reasonable first step is to seek implicit structure in the code and make it explicit. Unless the codebase is a single God class, there must be some way to group the classes together, even if the resulting structure is suboptimal. If there is an imperfect, but workable structure already, this step can be skipped.
 
 In the given example, it's clear that we have 3 classes directly related to posts, 1 class mostly related to markdown, 2 classes mostly related to git, 1 utility class and 1 "main" class. `MarkdownPostFactory` and `GitPostReader` look like implementations of non-existent `PostReader` and `PostFactory` interfaces, at least judging by the name. As said before, we don't care that the inferred structure is suboptimal, we just need something to work with. Let's make it explicit:
 
