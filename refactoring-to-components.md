@@ -62,6 +62,6 @@ public interface GitSupport {
 Isn't that beautiful?
 
 ### Summary
-A Ball of Mud is not the end of the world. You also don't need to rewrite everything to microservices to achieve a good componentization and independent developability of features. Start by analyzing the current structure and inferring implicit componentization left to you by your precedessors. Use good design rules and other techniques to recognize suboptimality in the inferred structure. Improve on recognized flaws by setting a target picture and gradually refactoring towards it. Once the components are sliced, encapsulate them so that none of the implementation details or responsibilities leaks out ever again. Enjoy!
+A Ball of Mud is not the end of the world. You also don't need to rewrite everything to microservices to achieve a good level of modularity and independent developability of features. Start by analyzing the current structure and inferring implicit componentization left to you by your precedessors. Use good design rules and other techniques to recognize suboptimality in the inferred structure. Improve on recognized flaws by setting a target picture and gradually refactoring towards it. Once the components are sliced, encapsulate them so that none of the implementation details or responsibilities leaks out ever again. Enjoy!
 
 *This post was inspired by Tim's article with the same name. You can check it out [here](https://codingtim.github.io/refactor-to-components/).*
