@@ -2,7 +2,10 @@
 id: ghost-35
 title: Reusable Components in Java
 author: Grzegorz Ziemonski
-summary: I can't name exact sources, but I feel like ever since I started learning how to program, I was reading tales and legends about "reusable" components, modules and so on. It was not until recently, that something clicked in my head and I found this concept pretty basic. In this text, I'll try to shed some light on creating components and making them reusable. Obviously, it won't be any close to complete, rather an inspiration to explore further.
+summary: I can't name exact sources, but I feel like ever since I started learning how to program, I was reading tales
+and legends about "reusable" components, modules and so on. It was not until recently, that something clicked in my head
+and I found this concept pretty basic. In this text, I'll try to shed some light on creating components and making them
+reusable. Obviously, it won't be any close to complete, rather an inspiration to explore further.
 date: 2016-10-31
 tags:
     - java
@@ -21,7 +24,7 @@ Now, for some of you this will be valid, some may say that I'm actually defining
 ### What goes inside a component?
 Let's focus on the middle part of my definition - cohesive responsibilities. I'd describe this as ==likelihood of changes happening to two classes together along with their conceptual cohesion==. To provide a quick example, we can imagine that `Customer` and `MailSender` classes won't have too much in common in a typical project, so they won't be in the same component. `Mail` and `MailSender` on the other hand seem to complement each other - every new piece of information `Mail` class will hold, `MailSender` will have to reflect in the actual email sent. Therefore `Mail` and `MailSender` are good candidates to be in the same component.
 
-Does that mean imaginary `MailController` and `MailRepository` will end up in the "mail component" too? There are consequences, so it depends. In my recent project, I decided to keep controllers inside components and so far I haven't experienced any issues. There's a great text by Simon Brown that gives some insight into his understanding of [Layers, hexagons, features and components](http://www.codingthearchitecture.com/2016/04/25/layers_hexagons_features_and_components.html). I definately recommend reading this one, before you make up your mind for good. I also recommend to experiment on your own, because projects vary and so best solutions do.
+Does that mean imaginary `MailController` and `MailRepository` will end up in the "mail component" too? There are consequences, so it depends. In my recent project, I decided to keep controllers inside components and so far I haven't experienced any issues. There's a great text by Simon Brown that gives some insight into his understanding of [Layers, hexagons, features and components](http://www.codingthearchitecture.com/2016/04/25/layers_hexagons_features_and_components.html). I definitely recommend reading this one, before you make up your mind for good. I also recommend to experiment on your own, because projects vary and so best solutions do.
 
 ### Creating a component
 Having identified two classes that are more cohesive to each other than to the rest, we should put them together - we want component structure to be explicit, not hidden in the forest of other things, not imaginary in the mind of an architect. We have multiple means of doing that - packaging, Maven modules, Java 9 modules, OSGi etc. In most projects, this implies that we should seek packaging (or "modularization") by functionality, rather than by object type (see also: [Package Structure](http://tidyjava.com/package-structure/)).
