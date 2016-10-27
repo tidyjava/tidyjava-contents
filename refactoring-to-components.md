@@ -16,8 +16,16 @@ For the purpose of this article, the ball of mud will be my [Blogging Platform](
 
 ![](/img/before.png)
 
+### Cleaning the Code
+One thing that was pointed out to me *after* I published the text, was that you can't effectively refactor to components
+when there's a huge mess in the code e.g. you have giant classes over 1k LOC. I think there's a lot to it, so I'd consider
+getting the code (more or less) clean a prerequisite to componentization.
+
 ### Inferring the Components
-In case there's no structure at all or it doesn't make any sense, a reasonable first step is to seek implicit structure in the code and make it explicit. Unless the codebase is a single God class, there must be some way to group the classes together, even if the resulting structure is suboptimal. If there is an imperfect, but workable structure already, this step can be skipped.
+In case there's no structure at all or it doesn't make any sense, a reasonable first step is to seek implicit structure
+in the code and make it explicit. Unless the codebase is a single God class, there must be some way to group the classes
+together, even if the resulting structure is suboptimal. If there is an imperfect, but workable structure already, this
+step can be skipped.
 
 In the given example, it's clear that we have 3 classes directly related to posts, 1 class mostly related to markdown, 2 classes mostly related to git, 1 utility class and 1 "main" class. `MarkdownPostFactory` and `GitPostReader` look like implementations of non-existent `PostReader` and `PostFactory` interfaces, at least judging by the name. As said before, we don't care that the inferred structure is suboptimal, we just need something to work with. Let's make it explicit:
 
@@ -62,6 +70,11 @@ public interface GitSupport {
 Isn't that beautiful?
 
 ### Summary
-A Ball of Mud is not the end of the world. You also don't need to rewrite everything to microservices to achieve a good level of modularity and independent developability of features. Start by analyzing the current structure and inferring implicit componentization left to you by your precedessors. Use good design rules and other techniques to recognize suboptimality in the inferred structure. Improve on recognized flaws by setting a target picture and gradually refactoring towards it. Once the components are sliced, encapsulate them so that none of the implementation details or responsibilities leaks out ever again. Enjoy!
+A Ball of Mud is not the end of the world. You also don't need to rewrite everything to microservices to achieve a good
+level of modularity and independent developability of features. Start by analyzing the current structure and inferring
+implicit componentization left to you by your precedessors. Use good design rules and other techniques to recognize
+suboptimality in the inferred structure. Improve on recognized flaws by setting a target picture and gradually
+refactoring towards it. Once the components are sliced, encapsulate them so that none of the implementation details
+or responsibilities leaks out ever again. Enjoy!
 
 *This post was inspired by Tim's article with the same name. You can check it out [here](https://codingtim.github.io/refactor-to-components/).*
