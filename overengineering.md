@@ -1,11 +1,10 @@
 ---
 title: Overengineering
 author: Grzegorz Ziemonski
-summary: 
-date: 2016-10-26
+summary: Reading a lot of stuff online and talking to people, I feel like there's a notion that the `interface` keyword is a sign of overengineering, legacy code and the old, complicated way of writing code in general. Microservices however... a completely different story! So small, simple, elegant... and powerful! Look at this scaling! Look at this fault tolerance! Look at this, look at that!
+date: 2016-11-01
 tags:
     - java
-    - components
 ---
 Reading a lot of stuff online and talking to people, I feel like there's a notion that the `interface` keyword is a sign
 of overengineering, legacy code and the old, complicated way of writing code in general. Microservices however... a
