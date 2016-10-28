@@ -6,7 +6,7 @@ summary: I can't name exact sources, but I feel like ever since I started learni
 and legends about "reusable" components, modules and so on. It was not until recently, that something clicked in my head
 and I found this concept pretty basic. In this text, I'll try to shed some light on creating components and making them
 reusable. Obviously, it won't be any close to complete, rather an inspiration to explore further.
-date: 2016-10-31
+date: 2016-10-29
 tags:
     - java
     - components
