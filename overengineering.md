@@ -16,7 +16,7 @@ special, yet another e-commerce, ERP or whatever. The load is perfectly sustaina
 massive scaling etc. You noticed that the part of the project you've been working on has grown significantly and after
 a quick analysis, you discovered 2 distinct responsibilities to be separated.
 
-![Overengineering - Before]("/img/overengineering-before.png")
+![Overengineering - Before](/img/overengineering-before.png)
 
 Let's assume that `responsibilityA` depends on `responsibilityB`, both contain significant amounts of code and,
 from now on, two different teams should be able to work on them independently.
@@ -26,7 +26,7 @@ We'll start by overengineering the integration. The two teams meet together and 
 by a regular Java `interface`, documented with JavaDoc. All the messages sent via the interface are JDK types or simple
 data structures (think: POJO with no methods besides accessors).
 
-![Overengineering - After]("/img/overengineering-after.png")
+![Overengineering - After](/img/overengineering-after.png)
 
 The team responsible for A stuff is only allowed to use classes from `responsibilityB.api` package. We could force that
 by e.g. moving the package into a separate Maven module, but it's out of this article's scope.
@@ -36,7 +36,7 @@ Now we'll change this medieval, overengineered bullshit into simple, scalable mi
 and agree on a contract. This time, they'll use REST and JSON, documented by Swagger and protected by an integration
 contract test.
 
-![Overengineering - Microservices 3]("/img/overengineering-microservices3.png")
+![Overengineering - Microservices 3](/img/overengineering-microservices3.png)
 
 Please note that necessary configurations like web client, service registry, circuit breakers etc. were left out.
 And we didn't even touch on infrastracture and all configurations required for separate deployments.
