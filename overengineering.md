@@ -42,4 +42,10 @@ Please note that necessary configurations like web client, service registry, cir
 And we didn't even touch on infrastracture and all configurations required for separate deployments.
 
 # Conclusion
-There's no particular conslusion. Use your own judgement.
+I don't want to lay out a conslusion for you. Instead, I'll ask you a few questions:
+
+* Which solution is more complex at this point?
+* Which solution would be more complex with full-blown implementation (i.e. after splitting the first one into Maven
+modules or after adding all necessary stuff to deploy 2 separate microservices)?
+* What are pros/cons of each solution in general?
+* Which of the pros/cons apply to your projects?
