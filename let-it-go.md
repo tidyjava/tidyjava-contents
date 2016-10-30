@@ -5,7 +5,7 @@ summary: Don't get too emotional with your code.
 date: 2016-11-05
 ---
 I sat today morning in front of my computer, opened [KanbanFlow](https://kanbanflow.com) and started planning out my day.
-First thing on the list? Enable previewing the posts, so that my friend Darek can review my latest text and suggest
+First thing on the list? Enable previewing the posts, so that my wife or my friend Darek can review my latest text and suggest
 improvements. I was waiting for this moment since the very beginning of the [blogging platform](https://github.com/tidyjava/blogging-platform)
 project. Now, finally, I'll add the possibility to make pull requests with newly added posts for easier reviews, for better future, for better
 world!
