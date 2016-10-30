@@ -33,8 +33,8 @@ by e.g. moving the package into a separate Maven module, but it's out of this ar
 
 # Microservices
 Now we'll change this medieval, overengineered bullshit into simple, scalable microservices. Again, the two teams meet
-and agree on a contract. This time, they'll use REST and JSON, documented by Swagger and protected by an integration
-contract test.
+and agree on a contract. This time, they'll use REST and JSON, documented by Swagger and protected by an [integration
+contract test](http://martinfowler.com/bliki/IntegrationContractTest.html).
 
 ![Overengineering - Microservices 3](/img/overengineering-microservices3.png)
 
