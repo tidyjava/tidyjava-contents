@@ -41,7 +41,7 @@ contract test](http://martinfowler.com/bliki/IntegrationContractTest.html).
 Please note that necessary configurations like web client, service registry, circuit breakers etc. were left out.
 And we didn't even touch on infrastracture and all configurations required for separate deployments.
 
-# Conclusion
+# Thinking time!
 I don't want to lay out a conslusion for you. Instead, I'll ask you a few questions:
 
 * Which solution is more complex at this point?
