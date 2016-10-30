@@ -6,7 +6,7 @@ date: 2016-11-05
 ---
 I sat today morning in front of my computer, opened [KanbanFlow](https://kanbanflow.com) and started planning out my day.
 First thing on the list? Enable previewing the posts, so that my friend Darek can review my latest text and suggest
-improvements. I was waiting for this moment since the very beginning of the [bloggin platform](https://github.com/tidyjava/blogging-platform)
+improvements. I was waiting for this moment since the very beginning of the [blogging platform](https://github.com/tidyjava/blogging-platform)
 project. Now, finally, I'll add the possibility to make pull requests with newly added posts for easier reviews, for better future, for better
 world!
 
@@ -16,13 +16,13 @@ I opened Notepad++ and quickly sketched the steps for upcoming solution:
 * parametrize Git integration using `git.branch` property, so that I can deploy an instance showing the newly prepared
 post
 * add a feature toggle for not-showing posts with future dates (By default, the platform hides future posts until the
-specified date. This way I don't have to remember to manually push the post on selected publish date)
+specified date. This way you don't have to remember to manually push the post on selected publish date)
 * fork the tidyjava repo and configure the fork to use `develop` branch
 * deploy the forked repo
 
 I'm ready to go. Positive energy is flowing through my body, to my fingers, hitting the keyboard in all the right places.
 Neat, cool solution begins to emerge. Testing the newly added features was a bit of a challenge, but this only raised my
-excitement with the upcoming feature. A little bit of genius and two pomodoros and the implementation is ready to serve!
+excitement with the upcoming feature. A little bit of genius, two pomodoros and the implementation is ready to serve!
 
 I can't wait till the five minute break between pomodoros is over. It's not even a break, I'm sitting there ready to
 deploy my newest beauty. I fork the repository, update the configuration, push everyting to GitHub. I open Heroku,
@@ -46,3 +46,5 @@ Kill it, murder, bury and forget!
 And this is what you, my readers, should do with any piece of needless code. Delete it. Let it go.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L0MK7qz13bU" frameborder="0" allowfullscreen></iframe>
+
+The code never bothered me anyway.
