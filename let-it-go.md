@@ -2,7 +2,7 @@
 title: Let it go!
 author: Grzegorz Ziemonski
 summary: Don't get too emotional with your code.
-date: 2016-11-05
+date: 2016-11-01
 ---
 I sat today morning in front of my computer, opened [KanbanFlow](https://kanbanflow.com) and started planning out my day.
 First thing on the list? Enable previewing the posts, so that my wife or my friend Darek can review my latest text and suggest
