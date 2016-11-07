@@ -19,8 +19,8 @@ at hand. Also, by "simple" I don't mean easy.
 More on this principle on the fantastic [c2 wiki](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html).
 
 # Don't Fight Dragons
-Dragons don't exist, really. It's all in your head. Whenever you get a feeling that this line of code will keep growing
-and growing in the future and eventually become unstoppable, take over your codebase, your company, your family and
+Dragons don't exist, really. It's all in your head. Whenever you get a feeling that a line of code will keep growing
+and growing in the future, and eventually become unstoppable, take over your codebase, your company, your family and
 your life... take a break. Seriously, go for a walk, take a deep breath, play a game of table soccer. As for the line of
 code... let it grow. Remember, ==code for now, not for the future==. You're not a mad dragon slayer, fighting imaginary
 dragons on every corner. You're a sneaky hunter, hiding behind a tree, ready to release an arrow in the exact moment
@@ -56,7 +56,7 @@ public void updateContactDetails(ContactDetails contactDetails) {
 }
 ```
 
-What if the third argument never came? Then we'd never need to refactor!
+Bam! You see? Patience! What if the third argument never came? Then we'd never need to refactor!
 
 # Make Small Steps
 However far you want to get in the end, your next step should be as small as possible. A single failing test, a single
@@ -83,4 +83,4 @@ Your ideas will be validated quickly and hopefully do more good than harm.
 # Keep Learning
 I barely scratched the surface of the topic. Actually, I listed only the things that are particularly important to me.
 There's much more to learn and discover. Read books and blogs, watch videos, go to conferences. Whatever you do,
-there'll always be something to learn or some skill to improve. Keep going!
+there'll always be something to learn or some skill to improve. Keep it up!
