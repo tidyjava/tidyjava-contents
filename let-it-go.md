@@ -1,7 +1,7 @@
 ---
 title: Let it go!
 author: Grzegorz Ziemonski
-summary: Don't get too emotional with your code.
+summary: A tear appears in my eye. My beauty! My child! I've just spent 3 fantastic, productive pomodoros developing this feature! Maybe I'll just leave it. The end users will have a choice! More features! Yes! But.. I'm a programmer. YAGNI, KISS... I can't just leave this complexity in there, just in case someone prefers double deployment, just to be able to review posts via pull request. My heartbeat goes crazy. And then it woke up...
 date: 2016-11-01
 ---
 I sat today morning in front of my computer, opened [KanbanFlow](https://kanbanflow.com) and started planning out my day.
