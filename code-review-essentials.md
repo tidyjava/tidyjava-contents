@@ -2,7 +2,7 @@
 title: Code Review Essentials
 author: Agnieszka Paszek
 summary: Let's just say, hypothetically, that you have just started working for a new company. Finally a perfect job you have always dreamt about... or at least what it seemed to be until you haven't taken a first look at THE CODE. That's when first crisis comes along...
-date: 9999-12-31
+date: 2016-11-11
 ---
 Let's say, hypothetically, that you have just started working for a new company. Finally a perfect job you have always dreamt about... or at least what it seemed to be until you haven't taken a first look at THE CODE. That's when first crisis comes along... But after you gave it a deep though you realise you can face it. You're not giving up so easily. After all, it's YOU who will be working there and you CAN (and should) make it better (and I mean here much, much better).
 You have to come up with a plan. So what can you do to both improve how things are right now and gain some knowledge about the project, which for certain will be useful in the further steps of your brilliant plan? The obvious answer comes to your mind - code reviews!
@@ -20,10 +20,10 @@ Some people perceive code reviews only as a way of controlling junior devs by mo
 
 # How should code reviews be done?
 Here're a few tips which will help you to get the most out of code reviews:
-* Everybody should be participating in the process both as a reviewer and reviewee. If you are in a small team 
+* Everybody should be participating in the process, both as a reviewer and reviewee. If you are in a small team 
 everybody can review every line of code. In a bigger one, you can think of some rotational system.
 * Code reviews should be done quickly. Don't make somebody wait a long time for your feedback. The faster the better, but it would be probably good enough to do them once a day.
-* Ideally code should be reviewed after all tests were run and  tools like e.g. Sonar were used in order not to make somebody write a comments like: “you have unused import here”. And of course this should be made automatically after a pull request was created. But that requires some infrastracture in place as well as a good suite of tests. So in some cases there might still be a long way to go, but the most important thing is to go in the right direction, even if you're making very small steps.
+* Ideally code should be reviewed after all tests were run and  tools like e.g. Sonar were used, in order not to avoid comments like: “you have unused import here”. And of course this should be made automatically after a pull request was created. But that requires some infrastracture in place as well as a good suite of tests. So in some cases there might still be a long way to go, but the most important thing is to go in the right direction, even if you're making very small steps.
 
 # Summary
 Code reviews can be a really valuable technique that reaches far beyond code correctness. Performed correctly, they’ll move you towards better code quality and a collective ownership. Basic code reviews guidelines include: everyone participates in the process, they should be done as soon as possible and they don’t serve as a replacement for static code analysis.
