@@ -3,6 +3,8 @@ title: Code Review Essentials
 author: Agnieszka Paszek
 summary: Let's just say, hypothetically, that you have just started working for a new company. Finally a perfect job you have always dreamt about... or at least what it seemed to be until you haven't taken a first look at THE CODE. That's when first crisis comes along...
 date: 2016-11-11
+tags:
+    - agile
 ---
 Let's say, hypothetically, that you have just started working for a new company. Finally a perfect job you have always dreamt about... or at least what it seemed to be until you haven't taken a first look at THE CODE. That's when first crisis comes along... But after you gave it a deep though you realise you can face it. You're not giving up so easily. After all, it's YOU who will be working there and you CAN (and should) make it better (and I mean here much, much better).
 You have to come up with a plan. So what can you do to both improve how things are right now and gain some knowledge about the project, which for certain will be useful in the further steps of your brilliant plan? The obvious answer comes to your mind - code reviews!
