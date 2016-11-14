@@ -30,8 +30,8 @@ when you feel tired or just a bit off track, you can simply switch roles and kee
 Reading the code written by someone else gives you a completely different view than actively participating in writing it.
 With Pair Programming, every piece of code has two authors with deep insight into it's creation process. If you rotate
 your pairing partners and participate in a variety of tasks, you have a much wider perspective on the codebase. Because
-you have to suppress your ego when pairing, you are less likely to be protective about deleting or changing your code.
-It's much less pain to [Let It Go]().
+you have to suppress your ego when pairing, you are less likely to be protective when it comes to deleting or changing
+your code. It's much less pain to [Let It Go](http://tidyjava.com/let-it-go).
 
 ### Built-in Code Review
 (You are doing code reviews, aren't you?!)
@@ -44,20 +44,20 @@ Regularly cooperating with your team members builds up a real team. You can't ac
 and the same feeling of a collective when sitting alone with your headphones on. Effective cooperation is more than
 daily stand-ups and bi-weekly ceremonies. It's daily discussions, whiteboard sessions and writing code together.
 
-For sure, there's more benefits than that. I chose the most important and appealing to me.
+For sure, there's more benefits than that. I chose the benefits that are most important and appealing to me.
 
 # How To Begin?
 Now, armed with a fantastic vision of all the benefits associated with Pair Programming, you're ready to start doing it
 yourself. Here are a few practical tips:
-* Just do it - too many people give up, before they even try, justifying that they are better working alone, that
+* **Just do it** - too many people give up, before they even try, justifying that they are better working alone, that
 management won't agree, that their project is special, bla, bla, bla. It's not.
-* Take breaks - it's way too easy to get gripped and end up exhausted after a few hours with suboptimal effects. Same as
-with working alone, you need to take breaks. Using Pomodoro technique is one of the ways to ensure regular breaks.
-* Switch roles - the fact that you're using your or someone's computer doesn't mean that only you/that person is allowed
+* **Take breaks** - it's way too easy to get gripped and end up exhausted after a few hours with suboptimal effects. Same as
+with working alone, you need to take breaks. Using Pomodoro technique is one of the ways to ensure regular and timely breaks.
+* **Switch roles** - the fact that you're using your or someone's computer doesn't mean that only you/that person is allowed
 to touch the keyboard. On the contrary, for best results, you should switch regularly.
-* Change partners - working all the time with the same person will limit the benefits of collective ownership, reviewed
+* **Change partners** - working all the time with the same person would limit the benefits of collective ownership, reviewed
 code and improved team spirit.
-* Set aside some time alone - despite the various benefits of various together, it's still important to have some time
+* **Set aside some time alone** - despite the various benefits of working together, it's still important to have some time
 for yourself, put your headphones on and bash some code alone.
 
 # Summary
