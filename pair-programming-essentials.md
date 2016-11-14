@@ -9,15 +9,15 @@ tags:
 It appears to me that Pair Programming is, next to TDD, one of the most controversial of XP practices. It also appears
 to me that most people criticising Pair Programming have never done it or, if they did, don't have too much experience
 with it. Where the critique comes from? Comfort zone. You have to leave your shell behind and expose yourself to
-making mistakes in front of someone else and prolonged communication. Basically, you're forced to get rid of your ego and
-any kind of code authorship for the sake of benefits you don't believe in.
+making mistakes in front of someone else and to prolonged communication. Basically, you're forced to get rid of your ego and
+any kind of code authorship for the sake of benefits you might not see or believe in.
 
 # Why Pair Programming?
 There has to be some advantage you get by Pair Programming, if you're ever supposed to agree to something like this.
 
 ### Two Heads Are Better Than One
 It's obvious that you will solve problems faster and produce better designs when you're working with someone. However
-more comfortable wouldn't you feel when working alone, having someone to discuss your ideas and tackle problems with
+more comfortable wouldn't you feel when working alone, having someone to discuss your ideas and tackle problems with,
 leads to a huge quality boost.
 
 ### Prolonged Attention
@@ -44,7 +44,7 @@ Regularly cooperating with your team members builds up a real team. You can't ac
 and the same feeling of a collective when sitting alone with your headphones on. Effective cooperation is more than
 daily stand-ups and bi-weekly ceremonies. It's daily discussions, whiteboard sessions and writing code together.
 
-For sure, there's more benefits than that. I chose the benefits that are most important and appealing to me.
+For sure, there's more benefits than that. I chose the ones that are most important and appealing to me.
 
 # How To Begin?
 Now, armed with a fantastic vision of all the benefits associated with Pair Programming, you're ready to start doing it
