@@ -34,7 +34,7 @@ you have to suppress your ego when pairing, you are less likely to be protective
 your code. It's much less pain to [Let It Go](http://tidyjava.com/let-it-go).
 
 ### Built-in Code Review
-(You are doing code reviews, aren't you?!)
+(You are doing [code reviews](http://tidyjava.com/code-review-essentials), aren't you?!)
 
 Having 2 pairs of eyes see and review the code, you can either relax your code review process or let it go completely.
 Depending on your team, it can be a huge time saver.
