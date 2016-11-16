@@ -2,7 +2,7 @@
 title: Pair Programming Essentials
 author: Grzegorz Ziemonski
 summary: It appears to me that Pair Programming is, next to TDD, one of the most controversial of XP practices. It also appears to me that most people criticising Pair Programming have never done it or, if they did, don't have too much experience with it. Where the critique comes from? Why should you give Pair Programming a try? How to get yourself into Pair Programming?
-date: 9999-12-31
+date: 2016-11-16
 tags:
     - agile
 ---
@@ -52,7 +52,7 @@ yourself. Here are a few practical tips:
 * **Just do it** - too many people give up, before they even try, justifying that they are better working alone, that
 management won't agree, that their project is special, bla, bla, bla. It's not.
 * **Take breaks** - it's way too easy to get gripped and end up exhausted after a few hours with suboptimal effects. Same as
-with working alone, you need to take breaks. Using Pomodoro technique is one of the ways to ensure regular and timely breaks.
+with working alone, you need to take breaks. Using [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is one of the ways to ensure regular and timely breaks.
 * **Switch roles** - the fact that you're using your or someone's computer doesn't mean that only you/that person is allowed
 to touch the keyboard. On the contrary, for best results, you should switch regularly.
 * **Change partners** - working all the time with the same person would limit the benefits of collective ownership, reviewed
